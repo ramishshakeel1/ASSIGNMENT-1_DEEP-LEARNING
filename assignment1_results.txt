@@ -1,0 +1,61 @@
+Deep Learning Assignment 1 - Results
+==================================================
+
+Model: ResNet18
+------------------------------
+Training Time: 570.95 seconds
+
+Expression Classification:
+  accuracy: 0.4475
+  f1_score: 0.4489
+  cohen_kappa: 0.3686
+  krippendorff_alpha: 0.3686
+  auc_ovr: 0.8220
+  auc_ovo: 0.8218
+  auc_pr: 0.4572
+
+Valence Regression:
+  rmse: 0.3965
+  pearson_corr: 0.5605
+  corr_p_value: 0.0000
+  sagr: 0.7675
+  ccc: 0.5497
+
+Arousal Regression:
+  rmse: 0.3521
+  pearson_corr: 0.4878
+  corr_p_value: 0.0000
+  sagr: 0.7812
+  ccc: 0.4668
+
+==================================================
+
+Model: EfficientNet-B0
+------------------------------
+Training Time: 484.12 seconds
+
+Expression Classification:
+  accuracy: 0.4412
+  f1_score: 0.4414
+  cohen_kappa: 0.3613
+  krippendorff_alpha: 0.3613
+  auc_ovr: 0.8173
+  auc_ovo: 0.8173
+  auc_pr: 0.4574
+
+Valence Regression:
+  rmse: 0.4022
+  pearson_corr: 0.5410
+  corr_p_value: 0.0000
+  sagr: 0.7600
+  ccc: 0.5282
+
+Arousal Regression:
+  rmse: 0.3405
+  pearson_corr: 0.5072
+  corr_p_value: 0.0000
+  sagr: 0.7825
+  ccc: 0.4761
+
+==================================================
+
